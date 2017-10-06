@@ -1,21 +1,29 @@
+/*
+  CUSTOM RESETS
+-----------------------------*/
 * {
   list-style-type: none;
   text-decoration: none;
-  color: #fff;
+  color: #FFF;
 }
 body {
   margin: 0;
   padding: 0;
   font-family: 'Varela Round', sans-serif;
 }
-.fa {
+header nav ul .fa {
   position: absolute;
   left: -54px;
   top: -16px;
 }
+.clearPrefix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /*
   HEADER
-------------*/
+--------------------------*/
 header ul {
   display: flex;
   flex-direction: row;
@@ -38,5 +46,28 @@ header ul li a span {
 }
 header ul li a:hover,
 header ul li a span:hover {
-  color: #fff;
+  color: #FFF;
+}
+/*
+  FOOTER
+--------------------------*/
+footer {
+  background-color: #3A364C;
+  padding: 1.6em;
+  text-align: center;
+}
+footer .copyright {
+  margin: .9em 0;
+}
+footer .social-icons a,
+footer .links a {
+  margin: 4px;
+}
+footer a,
+footer .social-icons a span {
+  color: #AFAFAF;
+}
+footer a:hover,
+footer .social-icons a span:hover {
+  color: #FFF;
 }
