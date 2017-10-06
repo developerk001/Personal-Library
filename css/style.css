@@ -1,0 +1,42 @@
+* {
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Varela Round', sans-serif;
+}
+.fa {
+  position: absolute;
+  left: -54px;
+  top: -16px;
+}
+/*
+  HEADER
+------------*/
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #3A364C;
+  padding: 3em 4em;
+  margin-top: -16px;
+}
+header ul li:first-child {
+  margin-right: auto;
+}
+header ul li {
+  display: inline-block;
+  margin: 0 2.7em;
+  position: relative;
+}
+header ul li a,
+header ul li a span {
+  color: #AFAFAF;
+}
+header ul li a:hover,
+header ul li a span:hover {
+  color: #fff;
+}
