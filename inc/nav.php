@@ -16,7 +16,7 @@
 					<li><a href="catalog.php?type=books"><span class="fa fa-book fa-3x"></span> Books</span></a></li>
 					<li><a href="catalog.php?type=movies"><span class="fa fa-film fa-3x"></span> Movies</a></li>
 					<li><a href="catalog.php?type=music"><span class="fa fa-music fa-3x"></span> Music</a></li>
-					<li><a href="suggest.php"><span class="fa fa-gear fa-3x"></span> Suggest</a></li>
+					<li><a href="suggest.php"><span class="fa fa-gear fa-3x"></span> Suggession</a></li>
 				</ul>
 			</nav>
 		</header>

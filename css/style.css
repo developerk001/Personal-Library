@@ -71,3 +71,53 @@ footer a:hover,
 footer .social-icons a span:hover {
   color: #FFF;
 }
+/*
+  SUGGEST :FORM
+--------------------------*/
+.form {
+  border: 2px solid #d4d9dd;
+  margin: 2em 20em;
+}
+.wrapper {
+    padding: 2em 4em;
+}
+.form .caption {
+  margin: 0;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: tomato;
+  padding: 1.5em 10em 1.5em 3.46em;
+}
+.form form label {
+  color: rgba(0,0,0,0.7);
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.form form .input-text,
+.form form .input-button {
+  background-color: #f9fafa;
+  border-color: #d4d9dd;
+  font-size: 1rem;
+  padding: .35rem 1rem;
+  outline: none;
+  border: 2px solid #d4d9dd;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #40484a;
+  font-weight: bold;
+}
+.form form .input-button {
+  color: #fff;
+  background: tomato;
+  font-weight: bold;
+  padding: .5em 1em;
+  opacity: 0.8;
+}
+.form form .input-button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.form form .input-text:focus {
+  background-color: #fff;
+}
